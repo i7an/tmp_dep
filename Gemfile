@@ -2,10 +2,7 @@ source "https://rubygems.org"
 gemspec
 
 gem "minitest"
-
-group :development do
-  gem "simple_command"
-end
+gem "simple_command"
 
 group :test do
   gem "rspec"
